@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+    <item
+        android:title="Home1"
+        android:id="@+id/home"
+        android:icon="@drawable/outline_home_24"
+        />
+
+    <item
+        android:title="Special Offer1"
+        android:id="@+id/brand"
+        android:icon="@drawable/discount"
+        />
+    <item
+        android:title="Whiselist"
+        android:id="@+id/whiselist1"
+        android:icon="@drawable/outline_favorite_border_24"
+        />
+    <item
+        android:title="Profile1"
+        android:id="@+id/Profile"
+        android:icon="@drawable/name"
+        />
+    </group>
+</menu>
